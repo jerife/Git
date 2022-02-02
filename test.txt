@@ -1,2 +1,4 @@
-전부 초기화 후
+이것은 local에서 수정한 내용 1
 sourcetree를 이용해 push까지!
+
+이것은 local에서 수정한 내용 2
