@@ -1,2 +1,1 @@
-전부 초기화 후
-sourcetree를 이용해 push까지!
+conflict를 실험하기위해 코드를 remote에서 수정합니다.
