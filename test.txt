@@ -1,7 +1,1 @@
-이것은 remote에서 수정한 내용 1
-
-
-이것은 local에서 수정한 내용 2
-
-
-추가적으로 이것은 local에서 수정한 내용 3
+Initial state

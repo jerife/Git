@@ -66,7 +66,7 @@ $ git pull origin main
 ![noname](https://user-images.githubusercontent.com/68190553/152108985-4b38fa00-1f95-41cb-8ae5-01ae5cad316a.png)
 
 
-##### 3-4) 현업에서 Commit할때에는 Message를 아래와 같이 남겨주면 좋다.
+##### 3-4) 협업에서 Commit할때에는 Message를 아래와 같이 남겨주면 좋다.
 * feat : 새로운 기능의 추가
 * fix: 버그 수정
 * build : 빌드 관련 파일 수정
