@@ -102,7 +102,7 @@ $ git pull origin [write your branch]
 ![noname](https://user-images.githubusercontent.com/68190553/152108985-4b38fa00-1f95-41cb-8ae5-01ae5cad316a.png)
 
 ##### 4-4) 팁 협업시 Slack을 이용해 PR(Pull Request)나 Issue 알림을 전달받을 수 있음.
-![image](https://user-images.githubusercontent.com/68190553/152284966-85d2cf96-108c-42bc-b219-efec9c79b8ad.png)
+![noname](https://user-images.githubusercontent.com/68190553/152285530-7a9d9686-e6cf-4d6f-afab-315a742a389d.png)
 
 
 ##### 4-5) 협업에서 Commit할때에는 Message를 아래와 같이 남겨주면 좋음.
