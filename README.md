@@ -55,7 +55,7 @@ $ git pull origin main
 #### 3-2) Branch를 사용해 따로 개발 후 Merge
 팀원들이 각자 branch를 생성하고 개발이 끝나면 PullRequest를 통해 approve를 받은 후 merge하는 것
 #### 3-3) Fork로 레포지토리를 복제해 개발 후 Merge
-팀의 레포지토리를 복제한 후 로컬에서 clone하고 개발이 PullRequest를 통해 approve를 받은 후 merge하는 것 것
+팀의 레포지토리를 복제한 후 로컬에서 clone하고 개발이 PullRequest를 통해 approve를 받은 후 merge하는 것
 
 ##### [Branch 협업을 위한 명령어 ]
 ```bash
