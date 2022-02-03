@@ -1,8 +1,8 @@
 # Git & GitHub
- 개인적으로 Git & GitHub 사용법을 공부하고 정리해놓은 Repo입니다.
+ 개인적으로 Git & GitHub 사용법을 공부하고 정리해놓은 Repository 입니다.
 
 ### 1. Server & Client
-Git : 로컬(local) 컴퓨터에서 실행되는 버전관리 프로그램
+Git : 로컬(local) 컴퓨터에서 실행되는 버전관리 프로그램<br/>
 GitHub : 원격(remote) 컴퓨터에서 버전을 저장하는 저장소
 <br/>
 
@@ -54,6 +54,8 @@ $ git pull origin main
 #### 3-1) 개발할때마다 원격 레포지토리에서 Pull 받고 Conflict 발생하면 직접 수정 후 Push
 #### 3-2) Branch를 사용해 따로 개발 후 Merge
 팀원들이 각자 branch를 생성하고 개발이 끝나면 PullRequest를 통해 approve를 받은 후 merge하는 것
+#### 3-3) Fork로 레포지토리를 복제해 개발 후 Merge
+팀의 레포지토리를 복제한 후 로컬에서 clone하고 개발이 PullRequest를 통해 approve를 받은 후 merge하는 것 것
 
 ##### [Branch 협업을 위한 명령어 ]
 ```bash
@@ -81,10 +83,8 @@ $ git push origin [write your branch]
 # branch로 pull하는 명령어
 $ git pull origin [write your branch]
 ``````
-
-#### 3-3) Fork
-not yet
 <br/>
+
 
 ### 4. 추가적인 사용 팁
 #### 4-1) .gitignore
@@ -96,13 +96,16 @@ not yet
 .gitignore 파일에 위 코드를 추가하면 됨
 > 추가로 [gitignore.io](gitignore.io) 라는 사이트에서 프로그램 언어마다 필요없는 파일들을 선언해 놓은 .gitignore 파일이 있음.
 
-##### 4-2) Ocrotree 라는 크롬브라우저 확장 프로그램을 이용해 Repo를 편하게 확인할 수 있음.
+##### 4-2) Ocrotree 라는 크롬브라우저 확장 프로그램을 이용해 레포지토리를 편하게 확인할 수 있음.
 
-##### 4-3) 협업시 Repo의 Insights 목록에서 팀원들의 활약도를 확인할 수 있음.
+##### 4-3) 협업시 레포지토리의 Insights 목록에서 팀원들의 활약도를 확인할 수 있음.
 ![noname](https://user-images.githubusercontent.com/68190553/152108985-4b38fa00-1f95-41cb-8ae5-01ae5cad316a.png)
 
+##### 4-4) 팁 협업시 Slack을 이용해 PR(Pull Request)나 Issue 알림을 전달받을 수 있음.
+![image](https://user-images.githubusercontent.com/68190553/152284966-85d2cf96-108c-42bc-b219-efec9c79b8ad.png)
 
-##### 4-4) 협업에서 Commit할때에는 Message를 아래와 같이 남겨주면 좋다.
+
+##### 4-5) 협업에서 Commit할때에는 Message를 아래와 같이 남겨주면 좋음.
 * feat : 새로운 기능의 추가
 * fix: 버그 수정
 * build : 빌드 관련 파일 수정
